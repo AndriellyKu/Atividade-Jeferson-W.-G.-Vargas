@@ -1,0 +1,185 @@
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+  
+body{
+  font-size: 16px;
+  background-color: #f2f2f2;
+
+}
+a{
+  text-decoration: none;
+}
+
+h2 {
+  padding: 1vw;
+  text-align: center;
+  font-size: 3em;
+}
+
+#descricao {
+  margin-top: 1vw;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+header{
+  background-color: #000000;
+  padding: 1.5em;
+}
+
+h1 {
+  color: #ddd;
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-weight: 700;
+}
+
+footer{
+    padding: 3% 3%;
+    letter-spacing: 2px;
+}
+
+.links-footer{
+    color: #f2f2f2;
+}
+
+.desk{
+    letter-spacing: 2px;
+}
+
+nav ul {
+  padding: 1.2em;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  height: 7vh;
+  align-items: center;
+}
+
+#aviao{
+    height: 200px;
+    width: 800px;
+}
+
+.gradiente{
+    height: 400px;
+    background: linear-gradient(#f2f2f2, #000000);
+}
+
+.linha{
+    height: 20px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    
+}
+
+.TT{
+    font-size: 2em;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#titu{
+    font-size: 5em;
+}
+
+a.btns-nav {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000; 
+    padding: 10px 20px;
+    border: 1px solid #fff; 
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+.inicio1{
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  width: 85%;
+  min-height: 400px;
+  height: 28em;
+  background-image: url(fotos/gramado.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.inicio1 p{
+  width: 30%;
+  font-size: 24px;
+  margin-right: 5%;
+  color: white;
+  position: relative;
+}
+.info1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #00000079;
+  width: 100%;
+  height: 100%;
+}
+.inicio2{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding: 2em 7.5%  2em 7.5%;
+  margin-bottom: 1em;
+}
+.inicio2 p{
+  width: 70%;
+  text-align: justify;
+}
+.texto-inicio{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*p turistico*/
+
+.turistico{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.turistico-secao{
+  width: 100%;
+  display: flex;
+}
+.turistico-info{
+  display:flex;
+  width: 50%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.turistico-info .figure{
+  height: auto;
+}
+.turistico-info .figure img{
+  width: 100%;
+  height: auto;
+}
+
+
+/**/
+
+footer{
+  width: 100%;
+  background-color: #292929;
+  height: 5em;
+}
